@@ -1,6 +1,7 @@
 # Chainlink Functions implementation
 
-This project is an example of a command-line interface (CLI) that uses the [functions-toolkit](https://github.com/smartcontractkit/functions-toolkit) to interact with Chainlink Functions.
+This project is an example of a command-line interface (CLI) that uses the [functions-toolkit](https://github.com/smartcontractkit/functions-toolkit) to interact with Chainlink Functions. [Official docs](https://docs.chain.link/chainlink-functions/tutorials/automate-functions#sourcejs).
+
 
 ## Installation
 

@@ -38,7 +38,7 @@ To set up the project, follow these steps:
     const url = "" // REPLACE this with your REST url
    ```
 
-7. Modify your "source.js":
+7. Modify your "updateRequest.js":
 
     ```js
     const consumerAddress = "0x" // REPLACE this with your Functions consumer address
@@ -47,7 +47,6 @@ To set up the project, follow these steps:
 
 8. Run the "updateRequest.js" script:
 
-    ```js
-    const consumerAddress = "0x" // REPLACE this with your Functions consumer address
-    const subscriptionId = 3 // REPLACE this with your subscription ID
+    ```bash
+    node scripts/updateRequest.js
     ```

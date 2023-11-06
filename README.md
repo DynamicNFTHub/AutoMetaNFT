@@ -10,24 +10,43 @@ To set up the project, follow these steps:
    ```bash
    git clone https://github.com/DynamicNFTHub/AutoMetaNFT.git
    ```
-1. Change the dir.
+2. Change the dir.
    ```bash
    cd AutoMetaNFT
    ```
-1. Install the required dependencies.
+3. Install the required dependencies.
 
    ```bash
    npm install
    ```
 
-1. I use [@chainlink/env-enc](https://www.npmjs.com/package/@chainlink/env-enc) package to encrypt environment variables at rest. Set the password to encrypt and decrypt the environment varilable file `.env.enc`:
+4. I use [@chainlink/env-enc](https://www.npmjs.com/package/@chainlink/env-enc) package to encrypt environment variables at rest. Set the password to encrypt and decrypt the environment varilable file `.env.enc`:
 
    ```bash
    npx env-enc set-pw
    ```
 
-1. Set the following variables:
-
+5. Set the following variables:
 - PRIVATE_KEY
 - POLYGON_MUMBAI_RPC_URL
 - WEB_SERVER_AUTHENTICATION_KEY
+
+6. Modify your "source.js":
+
+   ```js
+    const url = "" // REPLACE this with your REST url
+   ```
+
+7. Modify your "source.js":
+
+    ```js
+    const consumerAddress = "0x" // REPLACE this with your Functions consumer address
+    const subscriptionId = 3 // REPLACE this with your subscription ID
+    ```
+
+8. Run the "updateRequest.js" script:
+
+    ```js
+    const consumerAddress = "0x" // REPLACE this with your Functions consumer address
+    const subscriptionId = 3 // REPLACE this with your subscription ID
+    ```
